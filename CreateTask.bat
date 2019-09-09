@@ -1,0 +1,1 @@
+schtasks /create /tn test /sc minite /mo 1 /tr C:\Users\mura5\Documents\battest\test.bat

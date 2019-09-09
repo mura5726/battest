@@ -1,0 +1,15 @@
+setwd("C:/Users/mura5/Documents/battest/")
+
+shell.exec("C:/Users/mura5/Documents/battest/deltest.bat")
+
+Sys.sleep(3)
+write.csv(Sys.time(), "C:/Users/mura5/Documents/battest/test1.csv")
+Sys.sleep(3)
+write.csv(Sys.time(), "C:/Users/mura5/Documents/battest/test2.csv")
+Sys.sleep(3)
+write.csv(Sys.time(), "C:/Users/mura5/Documents/battest/test3.csv")
+Sys.sleep(3)
+write.csv(Sys.time(), "C:/Users/mura5/Documents/battest/test4.csv")
+Sys.sleep(3)
+write.csv(Sys.time(), "C:/Users/mura5/Documents/battest/test5.csv")
+Sys.sleep(3)
